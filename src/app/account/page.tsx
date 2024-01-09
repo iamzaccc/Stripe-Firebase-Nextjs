@@ -49,7 +49,7 @@ export default function AccountPage() {
   const upgradeToPremiumButton = (
     <button
       onClick={upgradeToPremium}
-      className="bg-blue-600 p-4 px-6 text-lg rounded-lg hover:bg-blue-700 shadow-lg"
+      className="bg-red-600 p-4 px-6 text-lg rounded-lg hover:bg-blue-700 shadow-lg"
     >
       <div className="flex gap-2 items-center align-middle justify-center">
         Upgrade To Premium
@@ -60,7 +60,7 @@ export default function AccountPage() {
   const managePortalButton = (
     <button
       onClick={manageSubscription}
-      className="bg-blue-600 p-4 px-6 text-lg rounded-lg hover:bg-blue-700 shadow-lg"
+      className="bg-red-600 p-4 px-6 text-lg rounded-lg hover:bg-red-700 shadow-lg"
     >
       <div className="flex gap-2 items-center align-middle justify-center">
         Manage Subscription

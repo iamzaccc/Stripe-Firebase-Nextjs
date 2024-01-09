@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <>
       <div className="text-5xl md:text-6xl font-bold">
-        <span className="text-transparent bg-clip-text bg-gradient-to-tr from-teal-400 to-blue-500">
+        <span className="text-transparent bg-clip-text bg-gradient-to-tr from-teal-400 to-red-500">
           my app
         </span>
       </div>
@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       <button
         onClick={signIn}
-        className="bg-blue-600 p-4 px-6 text-lg rounded-lg hover:bg-blue-700 shadow-lg"
+        className="bg-red-600 p-4 px-6 text-lg rounded-lg hover:bg-blue-700 shadow-lg"
       >
         <div className="flex gap-2 items-center align-middle">
           Login With Google {rightArrow}

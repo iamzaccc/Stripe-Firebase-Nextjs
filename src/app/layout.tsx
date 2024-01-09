@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <AuthRouter>
           <div
-            className="w-full h-screen bg-slate-900 text-white 
+            className="w-full h-screen bg-green-200 text-white 
                       flex flex-col justify-center items-center gap-4"
           >
             <div className="-mt-24" />
